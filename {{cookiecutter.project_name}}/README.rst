@@ -20,8 +20,8 @@
    --------------
 
 {% if is_open_source %}
-.. image:: https://img.shields.io/pypi/v/{{ cookiecutter.project_slug }}.svg
-        :target: https://pypi.python.org/pypi/{{ cookiecutter.pypi }}
+.. image:: https://img.shields.io/pypi/v/{{ cookiecutter.pypi_slug }}.svg
+        :target: https://pypi.python.org/pypi/{{ cookiecutter.pypi_slug }}
 
 .. image:: https://img.shields.io/travis/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.svg
         :target: https://travis-ci.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}

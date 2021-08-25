@@ -1,0 +1,13 @@
+{
+  "full_name": "Bob Smith",
+  "email": "{{ cookiecutter.full_name.lower().replace(' ', '') }}@email.com",
+  "github_username": "{{ cookiecutter.email.split('@')[0] }}",
+  "project_name": "Python Boilerplate",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+  "version": "0.1.0",
+  "use_pytest": "y",
+  "pypi_slug": "{{ cookiecutter.project_slug }}",
+  "readthedocs_slug": "{{ cookiecutter.project_slug }}",
+  "with_api": "n"
+}

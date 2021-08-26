@@ -9,5 +9,9 @@
   "use_pytest": "y",
   "pypi_slug": "{{ cookiecutter.project_slug }}",
   "readthedocs_slug": "{{ cookiecutter.project_slug }}",
-  "with_api": "n"
+  "with_api": "n",
+
+  "_copy_without_render": [
+    "actions/*.yml"
+  ]
 }

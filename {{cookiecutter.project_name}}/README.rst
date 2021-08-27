@@ -46,4 +46,4 @@ Credits
 This package was created with the `yitistica/package-cookiecutter`_ project template using Cookiecutter_.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _yitistica/ds-cookiecutter: https://github.com/yitistica/ds-cookiecutter
+.. _yitistica/package-cookiecutter: https://github.com/yitistica/package-cookiecutter

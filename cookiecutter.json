@@ -12,6 +12,6 @@
   "with_api": "n",
 
   "_copy_without_render": [
-    "actions/*.yml"
+    "*.gihub/workflows"
   ]
 }

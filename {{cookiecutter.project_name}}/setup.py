@@ -1,6 +1,20 @@
 #!/usr/bin/env python
-
+from pathlib import Path
+import json
 from setuptools import setup, find_packages
+
+# meta:
+meta_file_name = 'src/{{ cookiecutter.project_slug }}/meta.json'
+meta_path = Path(__file__).resolve().parent.joinpath(meta_file_name)
+
+
+try:
+    with open(meta_path) as file:
+        meta = json.load(file)
+    del file
+except FileNotFoundError:
+    meta = dict()
+
 
 with open('README.rst') as readme_file:
     readme = readme_file.read()
@@ -48,6 +62,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}',
-    version='{{ cookiecutter.version }}',
+    version=meta.get('__version__', '0.1.0'),
     zip_safe=False,
 )

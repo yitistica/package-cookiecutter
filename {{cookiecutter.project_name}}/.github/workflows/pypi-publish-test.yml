@@ -1,5 +1,5 @@
 
-name: Publish Package to Pypi
+name: Publish Package to Pypi (Test)
 
 on:
   release:

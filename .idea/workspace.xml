@@ -4,6 +4,7 @@
     <list default="true" id="1c1a6aee-f597-4549-b77d-44667e061a24" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/.github/workflows/pypi-package.yml" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/.github/workflows/pypi-package.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cookiecutter_template_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/{{cookiecutter.project_name}}/.github/workflows" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">

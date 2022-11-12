@@ -1,0 +1,32 @@
+
+
+_common_schemas:
+  schema_a: &schema_a
+    schema: schema_name
+    charset: utf8mb4
+    collation: utf8mb4_bin
+
+
+pools:
+  mysql_1: &mysql_1
+    driver: pymysql
+    type: mysql
+    config:
+      host: "127.0.0.1"
+      port: "3306"
+      user: root
+      password: secret-pw
+      database: database_name
+    schema:
+      <<: *schema_a
+  mysql_2: &mysql_2
+    driver: pymysql
+    type: mysql
+    config:
+      host: "127.0.0.1"
+      port: "3306"
+      user: root
+      password: secret-pw
+      database: database_name
+    schema:
+      <<: *schema_a

@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c1a6aee-f597-4549-b77d-44667e061a24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/configs/app.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/configs/connections.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/meta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/settings/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/package-cookiecutter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/package-cookiecutter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/configs/app.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/configurations/app.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/configs/connections.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/configurations/connections.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,22 +40,44 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Yi Qiu/Documents/GitHub/package-cookiecutter/{{cookiecutter.project_name}}/configs"
+    "last_opened_file_path": "C:/Users/Yi Qiu/Documents/GitHub/package-cookiecutter/{{cookiecutter.project_name}}/configurations",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yi Qiu\Documents\GitHub\package-cookiecutter\{{cookiecutter.project_name}}\configurations" />
       <recent name="C:\Users\Yi Qiu\Documents\GitHub\package-cookiecutter\{{cookiecutter.project_name}}\configs" />
       <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter\{{cookiecutter.project_name}}" />
       <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter\{{cookiecutter.project_name}}\src\{{cookiecutter.project_slug}}" />
       <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter\{{cookiecutter.project_name}}\.github\workflows" />
-      <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter\{{cookiecutter.project_name}}\.github\workflows" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.__init__ (1)">
+    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="package-cookiecutter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="package-cookiecutter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,8 +99,53 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="meta (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="package-cookiecutter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/meta.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="meta" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="package-cookiecutter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Yi Qiu\Documents\GitHub\package-cookiecutter\{{cookiecutter.project_name}}\src\{{cookiecutter.project_slug}}\config\meta.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__init__ (1)" />
+        <item itemvalue="Python.meta (1)" />
+        <item itemvalue="Python.meta" />
         <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>

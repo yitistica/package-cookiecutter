@@ -29,3 +29,5 @@ def _set_meta(path):
 __all__ = [*_set_meta(path=meta_path)]
 
 del (Path, json, meta_file_name, dir_path, meta_path, _set_meta)
+
+print('hello')

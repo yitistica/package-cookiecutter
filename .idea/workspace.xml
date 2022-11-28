@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c1a6aee-f597-4549-b77d-44667e061a24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/base/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/base/base_exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/base/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/config_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/utils/dt_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/settings/base.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Yi Qiu/Documents/GitHub/package-cookiecutter/{{cookiecutter.project_name}}/configurations",
+    "last_opened_file_path": "C:/Users/Yi Qiu/Documents/GitHub/package-cookiecutter",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>

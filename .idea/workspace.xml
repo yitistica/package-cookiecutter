@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c1a6aee-f597-4549-b77d-44667e061a24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/.github/workflows/pypi-publish-formal.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/requirements_dev.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/tox.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/config_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/utils/dt_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/.github/workflows/merge-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/.github/workflows/pre-release-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/.github/workflows/pypi-publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/.github/workflows/pypi-publish-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/README.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/settings/base.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,30 +27,56 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1xB79q5GtOhsjpBfodic8MpBqfK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/{{cookiecutter.project_name}}" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Yi Qiu/Documents/GitHub/package-cookiecutter",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter\{{cookiecutter.project_name}}\.github\workflows" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yi Qiu\Documents\GitHub\package-cookiecutter\{{cookiecutter.project_name}}\configurations" />
+      <recent name="C:\Users\Yi Qiu\Documents\GitHub\package-cookiecutter\{{cookiecutter.project_name}}\configs" />
       <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter\{{cookiecutter.project_name}}" />
       <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter\{{cookiecutter.project_name}}\src\{{cookiecutter.project_slug}}" />
       <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter\{{cookiecutter.project_name}}\.github\workflows" />
-      <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter" />
-      <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter\{{cookiecutter.project_name}}\docs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter\{{cookiecutter.project_name}}\.github\workflows" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.__init__ (1)">
+    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="package-cookiecutter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="package-cookiecutter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,8 +98,53 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="meta (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="package-cookiecutter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/meta.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="meta" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="package-cookiecutter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Yi Qiu\Documents\GitHub\package-cookiecutter\{{cookiecutter.project_name}}\src\{{cookiecutter.project_slug}}\config\meta.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__init__ (1)" />
+        <item itemvalue="Python.meta (1)" />
+        <item itemvalue="Python.meta" />
         <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
@@ -91,6 +161,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -104,35 +175,15 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629817613780">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1629817613780" />
-    <state x="663" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1629992261325">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="663" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1629992261325" />
-    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1630040626392">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1630040626392" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1629888219228" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1630161700014">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630161700014" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1630161700014">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630161700014" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1630161700014">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630161700014" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1630161700014">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630161700014" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

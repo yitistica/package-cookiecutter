@@ -19,6 +19,11 @@ except FileNotFoundError:
 with open('README.rst') as readme_file:
     readme = readme_file.read()
 
+
+with open('HISTORY.rst') as history_file:
+    history = history_file.read()
+
+
 requirements = []
 
 test_requirements = [{%- if cookiecutter.use_pytest == 'y' %}'pytest>=3',{%- endif %} ]
@@ -47,13 +52,16 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11'
     ],
     description="",
     install_requires=requirements,
 {%- if cookiecutter.open_source_license in license_classifiers %}
     license="{{ cookiecutter.open_source_license }}",
 {%- endif %}
-    long_description=readme + '\n\n' + '',
+    long_description=readme + '\n\n' + history,
     include_package_data=True,
     keywords='{{ cookiecutter.project_slug }}',
     name='{{ cookiecutter.project_slug }}',

@@ -1,0 +1,6 @@
+
+app:
+  project_name: {{cookiecutter.project_name}}
+  env: dev
+  home_dir: /home/
+

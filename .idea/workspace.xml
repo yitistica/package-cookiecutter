@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c1a6aee-f597-4549-b77d-44667e061a24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/config_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/utils/dt_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/configurations/connections.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/dal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/dal/relational/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/dal/relational/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/dal/relational/sys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/dal/sys/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/config/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/settings/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/utils/dt_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/utils/dt_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,23 +39,23 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Yi Qiu/Documents/GitHub/package-cookiecutter",
+    "last_opened_file_path": "C:/Users/Yi Qiu/Documents/GitHub/package-cookiecutter/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/dal/relational",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yi Qiu\Documents\GitHub\package-cookiecutter\{{cookiecutter.project_name}}\src\{{cookiecutter.project_slug}}\dal\relational" />
       <recent name="C:\Users\Yi Qiu\Documents\GitHub\package-cookiecutter\{{cookiecutter.project_name}}\configurations" />
+      <recent name="C:\Users\Yi Qiu\Documents\GitHub\package-cookiecutter\{{cookiecutter.project_name}}\src\{{cookiecutter.project_slug}}\dal\sys" />
       <recent name="C:\Users\Yi Qiu\Documents\GitHub\package-cookiecutter\{{cookiecutter.project_name}}\configs" />
       <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter\{{cookiecutter.project_name}}" />
-      <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter\{{cookiecutter.project_name}}\src\{{cookiecutter.project_slug}}" />
-      <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter\{{cookiecutter.project_name}}\.github\workflows" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yeech\Desktop\git\package-cookiecutter\{{cookiecutter.project_name}}\.github\workflows" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__init__ (1)">
+  <component name="RunManager" selected="Python.dt_utils">
     <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="package-cookiecutter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,6 +90,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dt_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="package-cookiecutter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/utils/dt_utils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dt_utils" />
         <item itemvalue="Python.__init__ (1)" />
         <item itemvalue="Python.meta (1)" />
         <item itemvalue="Python.meta" />

@@ -28,34 +28,34 @@ class _ConnConfig(KwargsConfig):
     pass
 
 
-class _IPVersion(Enum):
+class IPVersion(Enum):
     ipv4: str = 'ipv4'
     ipv6: str = 'ipv6'
 
 
 @dataclass
 class IP(KwargsConfig):
-    ip_version: Literal[_IPVersion.ipv4, _IPVersion.ipv6] = field(init=False)
+    _ip_version: Literal[IPVersion.ipv4, IPVersion.ipv6] = field(init=False)
     host: str
     port: Optional[int | str] = None
 
     def __post_init__(self):
         ip_version, host, port = self.validate(host=self.host, port=self.port)
-        self.ip_version = ip_version
+        self._ip_version = ip_version
         self.host = host
         self.port = port
 
     @staticmethod
     def validate_host(host):
 
-        ip_version = _IPVersion.ipv4
+        ip_version = IPVersion.ipv4
 
         if host == 'localhost':
             pass
         else:
             _ip = ipaddress.ip_address(host)
             if isinstance(_ip, ipaddress.IPv6Address):
-                ip_version = _IPVersion.ipv6
+                ip_version = IPVersion.ipv6
 
         return ip_version, host
 
@@ -87,23 +87,22 @@ class IP(KwargsConfig):
         return address
 
     def if_ipv4(self):
-        if self.ip_version == _IPVersion.ipv4:
+        if self._ip_version == IPVersion.ipv4:
             return True
         else:
             return False
 
     def if_ipv6(self):
-        if self.ip_version == _IPVersion.ipv6:
+        if self._ip_version == IPVersion.ipv6:
             return True
         else:
             return False
 
 
 @dataclass
-class _RelationalConnConfig(_ConfigBase):
-    host: str
-    port: str
+class RelationalConnConfig(_ConfigBase):
+    ip: IP
+    database: str = 'sqlite'
 
 
-ip = IP(host='127.0.0.1', port=123)
 

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c1a6aee-f597-4549-b77d-44667e061a24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/templates/conn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/attrs.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/templates/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/attrs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/templates/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/attrs/templates.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/templates/conn.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/templates/conn.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +32,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Yi Qiu/Documents/GitHub/package-cookiecutter/{{cookiecutter.project_name}}/src/{{cookiecutter.project_slug}}/helpers/config/templates/base.py",
+    "last_opened_file_path": "C:/Users/Yi Qiu/Documents/GitHub/replenishment_optimisation",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
